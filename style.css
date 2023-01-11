@@ -1,0 +1,19 @@
+/* sobre Mi */
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    height: 200px;
+    width: max-content;
+ 
+}
+
+.letra{
+    color: rgba(148, 148, 146, 0.548);
+}
+a:hover{
+color: aqua ;
+}
+
