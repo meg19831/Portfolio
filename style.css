@@ -1,19 +1,148 @@
-/* sobre Mi */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: #c8d1e0 ;
+}
+
+/* sobre Mi */
+.home{
+    padding: 15px;
+    text-align: center;
+}
+
+.homeH3{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: cursive;
+}
 .foto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: min-content;
-    height: 200px;
+    
+    height: 50vh;
     width: max-content;
+    border-radius: 25px;
+    border: solid rgba(143, 68, 241, 0.548) ;
+    margin-top: 20px;
+    margin-bottom: 20px;
  
 }
 
-.letra{
-    color: rgba(148, 148, 146, 0.548);
-}
-a:hover{
-color: aqua ;
+.nombre{
+    font-family: 'Irish Grover', cursive;
+    color:rgba(143, 68, 241, 0.548);;
 }
 
+.fotoportada{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.letra{
+    color: rgba(143, 68, 241, 0.548);
+}
+.letra:hover{
+color: aqua ;
+
+}
+
+.parrafo-home{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* Skills */
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+
+.skills-trabajos{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content:space-between;
+        align-items: center;
+        padding-bottom: 10px;
+}
+.imagen-skills{
+display: flex;
+flex-direction: row;
+width: 70px;
+height: 70px;
+border-radius: 20px;
+border: solid black;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+/* trabajos */
+
+.trabajos-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajos-cards{
+    border-radius: 20px;
+    border: solid rgba(143, 68, 241, 0.548);
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+    
+    
+}
+
+.imagenes-proyectos{
+    padding: 20px 20px  0  20px;
+    border-radius: 30px;
+    width: 100vh;
+    
+}
+
+.enlaces-proyectos{
+    text-decoration: none;
+    background-color:  rgba(143, 68, 241, 0.548);
+    border-radius: 25px;
+    border: solid black;
+    color: bisque;
+    height: 25px;
+    width: 150px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+
+/* contacto */
+
+.skills-contacto{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-bottom: 10px;
+}

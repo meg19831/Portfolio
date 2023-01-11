@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Eugenia Grande</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/b7d19f6155.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -45,52 +48,113 @@
 
 
       <!-- Home -->
-
-      <h1>Maria Eugenia Grande</h1>
-      <h3>Front-End</h3>
-      <img class="foto" src="./assets/imagenes/imagen-portada.jpeg" alt="foto de Maria Eugenia Grande">
-      <p>Descubrí el mundo de la programación a través de capacitaciones docentes con Scratch en el 2019. Vivo en Argentina, Buenos Aires.</p>
-        <br>
-        <p>Finalice la Carrera de Desarrollo Frontend React en CoderHouse (Html, CSS, JavaScript, ReactJs) </p>
-        <br>
-        <P>Continuo capacitandome</P>
-
+      <div class="home">
+          <h1 class="nombre">Maria Eugenia Grande</h1>
+          
+          <h3  class="homeH3"> <marquee> Developer Front-End</marquee></h3>
+          <div class="fotoportada">
+          <img class="foto" src="./assets/imagenes/imagen-portada.jpeg" alt="foto de Maria Eugenia Grande">
+          </div>
+          <p class="parrafo-home"><i class="fa-solid fa-spinner fa-spin-pulse"></i>  Descubrí el mundo de la programación a través de capacitaciones docentes con Scratch en el 2019. Vivo en Argentina, Buenos Aires.</p>
+          <p class="parrafo-home"><i class="fa-solid fa-spinner fa-spin-pulse"></i> Finalice la Carrera de Desarrollo Frontend React en CoderHouse (Html, CSS, JavaScript, ReactJs) </p>
+          <p class="parrafo-home"><i class="fa-solid fa-spinner fa-spin-pulse"></i> Continuo capacitandome</p>
+      </div>
       
-
-      <!-- sobre mi -->
-
-      <!-- <section class "sobreMi" id="sobremi">
-        <h1 >Sobre Mi:</h1>
-      </section> -->
+      <br
       
       <!-- Trabajos -->
       <section class "sobreMi" id="trabajos">
         <h1>Trabajos:</h1>
+        <div class="trabajos-contenedor">
+          <div class="trabajos-cards">
+          <h3>E-commerce</h3>
+          <div class="skills-trabajos">
+            <img class="imagen-skills" src="/assets/imagenes/html5-original.svg" alt="imagen Html">
+            <img class="imagen-skills"  src="/assets/imagenes/css3-original.svg" alt="imagen css">
+            <img class="imagen-skills"  src="/assets/imagenes/bootstrap-sinFondo.svg" alt="imagen bootstrap">
+          </div>
+            <img class="imagenes-proyectos" src="./assets/imagenes/proyecto-timePool.png" alt="proyecto html piletas de hormigon">
+            <br>
+            <a class="enlaces-proyectos" href="https://proyecto-coder-swart.vercel.app/"> Ver Proyecto</a>
+          </div>
+        </div>
+
+        <br>
+        <div class="trabajos-contenedor">
+          <div class="trabajos-cards">
+          <h3>E-commerce</h3>
+          <div class="skills-trabajos">
+            <img class="imagen-skills" src="/assets/imagenes/html5-original.svg" alt="imagen Html">
+            <img class="imagen-skills"  src="/assets/imagenes/css3-original.svg" alt="imagen css">
+            <img class="imagen-skills"  src="/assets/imagenes/bootstrap-sinFondo.svg" alt="imagen bootstrap">
+            <img class="imagen-skills" src="/assets/imagenes/javascript-original.svg" alt="imagen JavaScript">
+          </div>
+            <img class="imagenes-proyectos" src="./assets/imagenes/netMovie.png" alt="proyecto JavaScript NetMovie">
+            <br>
+            <a class="enlaces-proyectos" href="https://pre-entrega-trabajo-final2.vercel.app/"> Ver Proyecto</a>
+          </div>
+        </div>
+
+        <br>
+        <div class="trabajos-contenedor">
+          <div class="trabajos-cards">
+          <h3>E-commerce</h3>
+          <div class="skills-trabajos">
+            <img class="imagen-skills" src="/assets/imagenes/html5-original.svg" alt="imagen Html">
+            <img class="imagen-skills"  src="/assets/imagenes/css3-original.svg" alt="imagen css">
+            <img class="imagen-skills"  src="/assets/imagenes/bootstrap-sinFondo.svg" alt="imagen bootstrap">
+            <img class="imagen-skills" src="/assets/imagenes/react-original.svg" alt="imagen react">
+          </div>
+            <img class="imagenes-proyectos" src="./assets/imagenes/artDesing.png" alt="proyecto ReactJs">
+            <br>
+            <a class="enlaces-proyectos" href="https://cuadros-react.vercel.app/"> Ver Proyecto</a>
+          </div>
+        </div>
+
+        <br>
+        <div class="trabajos-contenedor">
+          <div class="trabajos-cards">
+          <h3>E-commerce</h3>
+          <div class="skills-trabajos">
+            <img class="imagen-skills" src="/assets/imagenes/html5-original.svg" alt="imagen Html">
+            <img class="imagen-skills"  src="/assets/imagenes/css3-original.svg" alt="imagen css">
+            <img class="imagen-skills"  src="/assets/imagenes/bootstrap-sinFondo.svg" alt="imagen bootstrap">
+            <img class="imagen-skills" src="/assets/imagenes/react-original.svg" alt="imagen react">
+          </div>
+            <img class="imagenes-proyectos" src="./assets/imagenes/calculadoraEuge.png" alt="proyecto ReactJs">
+            <br>
+            <a class="enlaces-proyectos" href=" https://calculadora-euge.vercel.app/"> Ver Proyecto</a>
+          </div>
+        </div>
       </section>
       
       <!-- Skills -->
-
+<br
       <section class "sobreMi" id="skills">
         <h1>Skills:</h1>
 
-        <div>
-            <img src="/assets/imagenes/html.jpeg" alt="">
-            <img src="/assets/imagenes/css.jpeg" alt="">
-            <img src="/assets/imagenes/github.jpeg" alt="">
-            <img src="/assets/imagenes/boostrap.jpeg" alt="">
-            <img src="/assets/imagenes/javaScript.jpeg" alt="">
-            <img src="/assets/imagenes/node.jpeg" alt="">
-            <img src="/assets/imagenes/react.jpeg" alt="">
-            <img src="/assets/imagenes/visual.jpeg" alt="">
-            <img src="/assets/imagenes/firesbase.jpeg" alt="">
+        <div class="skills">
+            <img class="imagen-skills" src="/assets/imagenes/html5-original.svg" alt="imagen Html">
+            <img class="imagen-skills"  src="/assets/imagenes/css3-original.svg" alt="imagen css">
+            <img class="imagen-skills"  src="/assets/imagenes/github-original.svg" alt="imagen github">
+            <img class="imagen-skills"  src="/assets/imagenes/bootstrap-sinFondo.svg" alt="imagen bootstrap">
+            <img class="imagen-skills"  src="/assets/imagenes/javascript-original.svg" alt="imagen JavaScript">
+            <img class="imagen-skills"  src="/assets/imagenes/nodejs-original.svg" alt="imagen de node">
+            <img class="imagen-skills"  src="/assets/imagenes/react-original.svg" alt="imagen de react">
+            <img class="imagen-skills"  src="/assets/imagenes/vscode-original.svg" alt="imagen de visual">
+            <img class="imagen-skills"  src="/assets/imagenes/firebase-plain.svg" alt="imagen de firebase">
             
         </div>
       </section>
       
       <!-- Contacto -->
-
+<br
       <section class "sobreMi" id="contacto">
-       <h1>Contacto:</h1>
+        <h1>Contacto:</h1>
+          <div class="skills-contacto">
+            <a href="https://www.linkedin.com/in/maria-eugenia-grande-1b3143230/"> <img class="imagen-skills" src="/assets/imagenes/linkedin-original.svg" alt="imagen Linkdin"></a>
+            <a href="https://wa.me/qr/NF37T7PWVQYAN1"> <img class="imagen-skills" src="/assets/imagenes/whatsapp.jpg" alt="imagen WhatsApp"></a>
+        </div>
       </section>
       
       <footer>    </footer>
