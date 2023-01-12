@@ -5,8 +5,14 @@
 }
 
 body{
-    background-color: #c8d1e0 ;
+    /* background-color: #c8d1e0 ; */
+    background-image: url(https://i.gifer.com/origin/33/336cabbb9a130b4458d1e2de3bdaf3fc_w200.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+
 
 /* sobre Mi */
 .home{
@@ -24,7 +30,7 @@ body{
     height: 50vh;
     width: max-content;
     border-radius: 25px;
-    border: solid rgba(143, 68, 241, 0.548) ;
+    border: solid orangered;/*  rgba(143, 68, 241, 0.548) ; */
     margin-top: 20px;
     margin-bottom: 20px;
  
@@ -32,7 +38,7 @@ body{
 
 .nombre{
     font-family: 'Irish Grover', cursive;
-    color:rgba(143, 68, 241, 0.548);;
+    color: rgba(117, 14, 250, 0.76);
 }
 
 .fotoportada{
@@ -43,13 +49,23 @@ body{
 }
 
 .letra{
-    color: rgba(143, 68, 241, 0.548);
+    color:  rgb(248, 105, 53)/* rgba(118, 19, 248, 0.548); */;
+    font-weight: bold;
 }
 .letra:hover{
-color: aqua ;
+color: rgb(255, 208, 0) ;
 
 }
 
+.desplegable{
+    background-color: #ff9f31cc;
+}
+a{
+    color: #F48A0D;
+    font-family: 'Fuzzy Bubbles', cursive; 
+    font-weight: bold;
+    font-size: medium;
+}
 .parrafo-home{
     font-family: sans-serif;
     font-size: 20px;
@@ -92,6 +108,10 @@ margin-right: 10px;
 
 /* trabajos */
 
+h3{
+    color: rgba(255, 91, 32, 0.863);
+}
+
 .trabajos-contenedor{
     display: flex;
     justify-content: center;
@@ -100,7 +120,7 @@ margin-right: 10px;
 
 .trabajos-cards{
     border-radius: 20px;
-    border: solid rgba(143, 68, 241, 0.548);
+    border: solid /* rgba(143, 68, 241, 0.548); */ orangered;
     text-align: center;
     padding-top: 10px;
     display: flex;
@@ -145,4 +165,11 @@ margin-right: 10px;
     justify-content:space-evenly;
     align-items: center;
     padding-bottom: 10px;
+}
+
+/* titulos */
+.titulos{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color:#F48A0D;
+    margin-left: 40px;
 }
