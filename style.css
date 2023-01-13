@@ -5,7 +5,7 @@
 }
 
 body{
-    /* background-color: #c8d1e0 ; */
+    
     background-image: url(https://i.gifer.com/origin/33/336cabbb9a130b4458d1e2de3bdaf3fc_w200.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@ a{
 /* Skills */
 .skills{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     justify-content:space-around;
     align-items: center;
@@ -89,7 +89,6 @@ a{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        justify-content:space-between;
         align-items: center;
         padding-bottom: 10px;
 }
@@ -188,4 +187,42 @@ h3{
 .parrafo-footer{
     
     color: coral;
+}
+
+@media screen and (max-width: 768px) {
+  .trabajos-cards{
+    height: 500px;
+    
+    }
+
+    .imagenes-proyectos{
+      width: 300px;
+  }
+  .skills-trabajos{
+    padding-bottom: 5px;
+}
+
+.imagen-skills{
+  
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  
+  }
+
+  .enlaces-proyectos{
+    text-decoration: none;
+    background-color:  rgba(143, 68, 241, 0.548);
+    border-radius: 25px;
+    border: solid black;
+    color: bisque;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding-top: 20px;
+}
 }
